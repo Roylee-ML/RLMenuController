@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D68333E1C8B205800851AE6 /* MenuTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6833351C8B205800851AE6 /* MenuTypeViewController.m */; };
+		7D68333F1C8B205800851AE6 /* RLMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6833391C8B205800851AE6 /* RLMenuController.m */; };
+		7D6833401C8B205800851AE6 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D68333B1C8B205800851AE6 /* UIView+Common.m */; };
+		7D6833411C8B205800851AE6 /* RootMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D68333D1C8B205800851AE6 /* RootMenuViewController.m */; };
+		7D6833431C8B20C700851AE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6833421C8B20C700851AE6 /* Main.storyboard */; };
 		7DE918C71C74CA3500EA18A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE918C61C74CA3500EA18A9 /* main.m */; };
 		7DE918CA1C74CA3500EA18A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE918C91C74CA3500EA18A9 /* AppDelegate.m */; };
 		7DE918CD1C74CA3500EA18A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE918CC1C74CA3500EA18A9 /* ViewController.m */; };
-		7DE918D01C74CA3500EA18A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE918CE1C74CA3500EA18A9 /* Main.storyboard */; };
 		7DE918D21C74CA3500EA18A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE918D11C74CA3500EA18A9 /* Assets.xcassets */; };
 		7DE918D51C74CA3500EA18A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE918D31C74CA3500EA18A9 /* LaunchScreen.storyboard */; };
 		7DE918E01C74CA3500EA18A9 /* RLMenuControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE918DF1C74CA3500EA18A9 /* RLMenuControllerDemoTests.m */; };
-		7DE918EB1C74CA3500EA18A9 /* RLMenuControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE918EA1C74CA3500EA18A9 /* RLMenuControllerDemoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +38,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D6833341C8B205800851AE6 /* MenuTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTypeViewController.h; sourceTree = "<group>"; };
+		7D6833351C8B205800851AE6 /* MenuTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTypeViewController.m; sourceTree = "<group>"; };
+		7D6833371C8B205800851AE6 /* RLMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMacro.h; sourceTree = "<group>"; };
+		7D6833381C8B205800851AE6 /* RLMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMenuController.h; sourceTree = "<group>"; };
+		7D6833391C8B205800851AE6 /* RLMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLMenuController.m; sourceTree = "<group>"; };
+		7D68333A1C8B205800851AE6 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		7D68333B1C8B205800851AE6 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		7D68333C1C8B205800851AE6 /* RootMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootMenuViewController.h; sourceTree = "<group>"; };
+		7D68333D1C8B205800851AE6 /* RootMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootMenuViewController.m; sourceTree = "<group>"; };
+		7D6833421C8B20C700851AE6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7DE918C21C74CA3500EA18A9 /* RLMenuControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLMenuControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE918C61C74CA3500EA18A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DE918C81C74CA3500EA18A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DE918C91C74CA3500EA18A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7DE918CB1C74CA3500EA18A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7DE918CC1C74CA3500EA18A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7DE918CF1C74CA3500EA18A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DE918D11C74CA3500EA18A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DE918D41C74CA3500EA18A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DE918D61C74CA3500EA18A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,8 +61,6 @@
 		7DE918DF1C74CA3500EA18A9 /* RLMenuControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLMenuControllerDemoTests.m; sourceTree = "<group>"; };
 		7DE918E11C74CA3500EA18A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DE918E61C74CA3500EA18A9 /* RLMenuControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLMenuControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DE918EA1C74CA3500EA18A9 /* RLMenuControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLMenuControllerDemoUITests.m; sourceTree = "<group>"; };
-		7DE918EC1C74CA3500EA18A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D6833361C8B205800851AE6 /* RLMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				7D6833371C8B205800851AE6 /* RLMacro.h */,
+				7D6833381C8B205800851AE6 /* RLMenuController.h */,
+				7D6833391C8B205800851AE6 /* RLMenuController.m */,
+				7D68333A1C8B205800851AE6 /* UIView+Common.h */,
+				7D68333B1C8B205800851AE6 /* UIView+Common.m */,
+			);
+			path = RLMenuController;
+			sourceTree = "<group>";
+		};
 		7DE918B91C74CA3500EA18A9 = {
 			isa = PBXGroup;
 			children = (
 				7DE918C41C74CA3500EA18A9 /* RLMenuControllerDemo */,
 				7DE918DE1C74CA3500EA18A9 /* RLMenuControllerDemoTests */,
-				7DE918E91C74CA3500EA18A9 /* RLMenuControllerDemoUITests */,
 				7DE918C31C74CA3500EA18A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,9 +124,14 @@
 			children = (
 				7DE918C81C74CA3500EA18A9 /* AppDelegate.h */,
 				7DE918C91C74CA3500EA18A9 /* AppDelegate.m */,
+				7D6833341C8B205800851AE6 /* MenuTypeViewController.h */,
+				7D6833351C8B205800851AE6 /* MenuTypeViewController.m */,
+				7D6833361C8B205800851AE6 /* RLMenuController */,
+				7D68333C1C8B205800851AE6 /* RootMenuViewController.h */,
+				7D68333D1C8B205800851AE6 /* RootMenuViewController.m */,
 				7DE918CB1C74CA3500EA18A9 /* ViewController.h */,
 				7DE918CC1C74CA3500EA18A9 /* ViewController.m */,
-				7DE918CE1C74CA3500EA18A9 /* Main.storyboard */,
+				7D6833421C8B20C700851AE6 /* Main.storyboard */,
 				7DE918D11C74CA3500EA18A9 /* Assets.xcassets */,
 				7DE918D31C74CA3500EA18A9 /* LaunchScreen.storyboard */,
 				7DE918D61C74CA3500EA18A9 /* Info.plist */,
@@ -129,15 +155,6 @@
 				7DE918E11C74CA3500EA18A9 /* Info.plist */,
 			);
 			path = RLMenuControllerDemoTests;
-			sourceTree = "<group>";
-		};
-		7DE918E91C74CA3500EA18A9 /* RLMenuControllerDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7DE918EA1C74CA3500EA18A9 /* RLMenuControllerDemoUITests.m */,
-				7DE918EC1C74CA3500EA18A9 /* Info.plist */,
-			);
-			path = RLMenuControllerDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D6833431C8B20C700851AE6 /* Main.storyboard in Resources */,
 				7DE918D51C74CA3500EA18A9 /* LaunchScreen.storyboard in Resources */,
 				7DE918D21C74CA3500EA18A9 /* Assets.xcassets in Resources */,
-				7DE918D01C74CA3500EA18A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DE918CD1C74CA3500EA18A9 /* ViewController.m in Sources */,
+				7D6833401C8B205800851AE6 /* UIView+Common.m in Sources */,
+				7D6833411C8B205800851AE6 /* RootMenuViewController.m in Sources */,
+				7D68333E1C8B205800851AE6 /* MenuTypeViewController.m in Sources */,
+				7D68333F1C8B205800851AE6 /* RLMenuController.m in Sources */,
 				7DE918CA1C74CA3500EA18A9 /* AppDelegate.m in Sources */,
 				7DE918C71C74CA3500EA18A9 /* main.m in Sources */,
 			);
@@ -288,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DE918EB1C74CA3500EA18A9 /* RLMenuControllerDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7DE918CE1C74CA3500EA18A9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DE918CF1C74CA3500EA18A9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7DE918D31C74CA3500EA18A9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -496,6 +508,7 @@
 				7DE918F11C74CA3500EA18A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DE918F21C74CA3500EA18A9 /* Build configuration list for PBXNativeTarget "RLMenuControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				7DE918F41C74CA3500EA18A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DE918F51C74CA3500EA18A9 /* Build configuration list for PBXNativeTarget "RLMenuControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				7DE918F71C74CA3500EA18A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
